@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stephanie/dev/panneau-led/Code/Serial_port/tests_arroway/board_control.h
+
+/Users/stephanie/dev/panneau-led/Code/Serial_port/tests_arroway/board_control_test.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+board_control.h
+/Users/stephanie/dev/panneau-led/Code/Serial_port/tests_arroway/board_control.h
+parse_command_line.h
+/Users/stephanie/dev/panneau-led/Code/Serial_port/tests_arroway/parse_command_line.h
+check_arguments.h
+/Users/stephanie/dev/panneau-led/Code/Serial_port/tests_arroway/check_arguments.h
+
+/Users/stephanie/dev/panneau-led/Code/Serial_port/tests_arroway/check_arguments.h
+parse_command_line.h
+/Users/stephanie/dev/panneau-led/Code/Serial_port/tests_arroway/parse_command_line.h
+
+/Users/stephanie/dev/panneau-led/Code/Serial_port/tests_arroway/parse_command_line.h
+stdio.h
+-
+errno.h
+-
+getopt.h
+-
+board_control.h
+/Users/stephanie/dev/panneau-led/Code/Serial_port/tests_arroway/board_control.h
+

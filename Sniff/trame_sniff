@@ -1,0 +1,42 @@
+COM port is opened
+
+In/out queue size 1024/1024
+
+Set timeouts: 
+	ReadInterval=-1, 
+	ReadTotalTimeoutMultiplier=0, 
+	ReadTotalTimeoutConstant=1100, 
+	WriteTotalTimeoutMultiplier=0, 
+	WriteTotalTimeoutConstant=0
+
+Baud rate 9600
+
+RTS on
+DTR on
+
+Data bits=8, 
+Stop bits=1, 
+Parity=None
+
+Set chars: 
+	Eof=0x00, 
+	Error=0x00, 
+	Break=0x00, 
+	Event=0x00, 
+	Xon=0x11,
+	Xoff=0x13
+
+Handflow: 
+	ControlHandShake=(DTR_CONTROL), 
+	FlowReplace=(TRANSMIT_TOGGLE, RTS_CONTROL), 
+	XonLimit=34496, 
+	XoffLimit=8624
+
+<ID01><BE>05<E>
+ACK
+<ID01><L1><PB><FE><MA><WC><FE>Hello35<E>
+ACK
+<ID01><BF>06<E>
+ACK
+
+COM port is closed 

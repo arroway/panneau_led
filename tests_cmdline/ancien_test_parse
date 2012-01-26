@@ -1,0 +1,121 @@
+
+
+/*int parse_command_line_tests(){
+
+	int compt = 0;
+	text = malloc( LENGTH_MAX_TEXT * sizeof(char));
+
+	text[0] = '\0';
+
+	if (!text){
+		printf("malloc() for text failed");
+		return EXIT_FAILURE;
+	}
+
+	printf("step 1");
+	char** string_test = malloc( 2 * sizeof(char* ));
+	printf("step 2");
+	char* string = malloc( LENGTH_MAX * sizeof(char) );
+	printf("step 3");
+
+	if ( !string_test || !string){
+		printf("malloc() failed");
+		return EXIT_FAILURE;
+	}
+	printf("step 4");
+
+	/* Aucun argument n'est donné sur la ligne de commande.
+	 * On renvoie le menu d'aide. */
+	/* Test #1 */
+	/*strcpy( string, "Board_Control");*/
+
+
+/*
+	string_test[1] = NULL ;
+	printf("step 5");
+
+	*/
+	//parse_command_line( 1, string_test);
+
+
+	/* On affiche le menu d'aide. */
+	/* Test 2 */
+	/*strcpy( string, "Board_Control -h");
+	string_test[0] = string;
+	parse_command_line( 2, string_test);*/
+
+
+	/* */
+
+
+	//this string fails
+	//strcpy( string, "Board_Control -p A -l B -d C -t D -g E -P 1");
+
+	/* Test #3*/
+	/*strcpy( string, "-p A -l B -d C -t D -g E -P 1 Hello");
+	printf("step 6");
+	string_test[0] = string;
+	printf("step 7");
+	parse_command_line( 13 , string_test );
+	printf("e");
+
+	if ( ( arg_options.page == 'A' ) &&
+		 ( arg_options.lead_cmd == 'B') &&
+		 ( arg_options.display_meth == 'C') &&
+		 ( arg_options.wait_time == 'D') &&
+		 ( arg_options.lag_cmd == 'E' ) &&
+		 ( arg_options.priority == 1 ) &&
+		 ( strcmp( text, "Hello" ) == 0 )
+	)
+		compt++;
+	else
+		printf("test #3 of parse_command_line() failed. ");*/
+
+	/* Test #4*/
+/*	strcpy( string, "Board_Control -p a -l b -d c -t d -g e -P 0 Hello");
+	strcpy( string_test[0], string);
+	parse_command_line( 14 , string_test );
+
+	if ( strcmp( &arg_options.page, "a" ) &&
+		 strcmp( &arg_options.lead_cmd, "b") &&
+		 strcmp( &arg_options.display_meth, "c") &&
+		 strcmp( &arg_options.wait_time, "d") &&
+		 strcmp( &arg_options.lag_cmd, "e") &&
+		 ( arg_options.priority == 0 ) &&
+		 strcmp( text, "Hello" )
+	)
+		compt++;
+	else
+		printf("test #4 of parse_command_line() failed. ");*/
+
+
+	/*printf("break");
+	char* my_cmdline_string = malloc( LENGTH_MAX * sizeof(char) );
+	printf("break");
+	strcpy(my_cmdline_string, "Board_Control -p A -l B -d C -t D -g E -P 1 Hello");
+
+	printf("break");
+	char *token = strtok(my_cmdline_string, " ");
+	int i = 0;
+
+	do {
+		string_test[i++] = token;
+		token = strtok(NULL, " ");
+	} while (token != NULL);
+
+	string_test[i] = NULL;
+	printf("break");
+
+	 strcpy( string, "Board_Control -p A -l B -d C -t D -g E -P 1 Hello");
+	printf( "texte à enregistrer: %s", string );
+	strcpy( string_test[0], my_cmdline_string );
+	printf("break");
+	parse_command_line( i, string_test );
+	printf( "texte enregistré: %s", text );
+	*/
+
+
+	/*free( string );
+	free( string_test );
+	return EXIT_SUCCESS;
+}*/
