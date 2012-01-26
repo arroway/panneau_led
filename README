@@ -2,3 +2,6 @@ This code is the server side program to command a LED Display Board.
 It can be runned on a machine connected via a serial port to the display board.
 
 Building the project requires CMake.
+
+
+(This was a first-year project at Engineering School in group of 4.)
